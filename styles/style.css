@@ -168,6 +168,54 @@ blockquote {
     padding: 40px 20px 60px;
 }
 
+.cards-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    list-style: none;
+
+}
+
+.card {
+    border-radius: 30px;
+    padding: 20px;
+    
+}
+
+.card_theme_dark {
+    background: #343434;
+}
+
+.card_theme_bright {
+    color: #141414;
+    background-color: #FEE42A;
+}
+
+.card_author {
+    margin: 8px 0 0;
+    font-weight: 700;
+}
+
+.card_author-photo {
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.card_author-name {
+    margin: 8px 0 0;
+    font-weight: 700;
+
+}
+
+.card_title {
+    margin: 8px auto;
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.35;
+}
+
 .footer {
     padding: 20px;
 }
